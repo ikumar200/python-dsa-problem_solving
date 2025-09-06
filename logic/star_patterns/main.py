@@ -1,5 +1,5 @@
 #  this is form striver sheet
-n=4
+n=5
 
 # No.1
 # for i in range(n):
@@ -14,15 +14,35 @@ n=4
 #     print("\n")
 
 # No.3
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(j,end="")
-    print()
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
 
 # No.4
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(i,end="")
-    print()
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(i,end="")
+#     print()
 
 # No.5
+# for i in range(n):
+#     for j in range(n-i):
+#         print("*",end="")
+#     print()
+
+# No.6
+# for i in range(1,n+1):
+#     for j in range(1,n-i+2):
+#         print(j,end="")
+#     print()
+
+# No.7
+for i in range(1,n):
+    for j in range(1,n-i):
+        print(" ",end="")
+    for j in range(1,2*i):
+        print("*",end="")
+    for j in range(1,n-i):
+        print(" ",end="")
+    print()
